@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "console.log('Olá mundo!');"
+date:   2019-02-04 08:30:25 -0300
+categories: apresentacao
+tags: none
+image: /assets/article_images/2019-02-04-ola-mundo/desktop.JPG
+---
+
+Este é meu primeiro post, e já começamos com um clichê no título: Hello World!
+
+Meu nome é Thiago Paiva, sou desenvolvedor desde 2005, já atuei em consultorias e setor público, atendendo uma variedade de clientes. Me encontrei na educação ao lecionar como professor substituto nas redes federal e estadual de educação técnica/tecnológica. Inclusive acredito que acabei aprendendo a gostar de fato de programação depois de dar aula.
+
+Apesar de não lecionar atualmente (mas já tem planos a curto prazo para o retorno), amo compartilhar meu conhecimento com as pessoas e quero que este blog permita isso. Pretendo ser assíduo, rs.
+
+Sobre a imagem que ilustra uma exibição de texto em javascript, java e PHP - minha caligrafia já foi bem pior do que esta!

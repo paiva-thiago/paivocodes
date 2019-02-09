@@ -1,0 +1,57 @@
+# Build settings
+gems:
+  - jemoji
+  - jekyll-paginate
+
+# Site settings
+title: "Paivocodes"
+description: > # this means to ignore newlines until "email:"
+   Blog sobre programação, desenvolvimento e outras coisas de Tecnologia da Informação.
+
+email: contato@thiagopaiva.com
+#blog logo
+logo: "/assets/images/blg_logo.jpg"
+float_logo: true # true, false (default)
+
+# blog cover
+cover: "/assets/images/sohnoscomputer.jpg"
+
+name: 'Thiago Paiva'
+desc: 'Desenvolvedor Web que quer dar sentido às coisas.'
+author: 'Thiago Paiva'
+author_image: "/assets/images/author.jpg"
+
+paginate:	5
+
+url: "" # the base hostname & protocol for your site
+baseurl: ""
+#used to display twitter cards
+twitter_handle: '@paiva_thiago'
+
+#fill in disqus shortname to use disqus
+disqus: paivocodes
+
+#google_analytics: UA-XXXXX-X
+
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/paiva_thiago
+    desc: Dê um follow no twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+  - icon:	github
+    url:	https://github.com/paiva-thiago
+    desc:	Dê um fork no github
+    share_url:
+    share_title:
+    share_link:
+ 
+  - icon:	linkedin
+    url:	https://linkedin.com/in/thiagormp
+    desc:	Confira meu linkedin
+    share_url:
+    share_title:
+    share_link:
