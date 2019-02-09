@@ -36,7 +36,7 @@ disqus: paivocodes
 # social icons and sharing options
 social:
   - icon:	twitter
-    url:	https://twitter.com/paiva_thiago
+    url:	https://twitter.com/paivocodes
     desc: Dê um follow no twitter
     share_url: http://twitter.com/share
     share_title: ?text=
