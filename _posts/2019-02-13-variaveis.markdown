@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Algoritmos"
+title:  "Variáveis"
 date:   2019-02-13 08:30:00 -0300
 categories: introdução
 tags: none
