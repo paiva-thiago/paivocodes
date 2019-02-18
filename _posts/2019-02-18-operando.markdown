@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Operando"
+title:  "Operando - Parte I"
 date:   2019-02-18 10:30:00 -0300
 categories: introdução
 tags: none
