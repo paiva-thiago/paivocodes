@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "Operando"
+date:   2019-02-18 10:30:00 -0300
+categories: introdução
+tags: none
+image: /assets/article_images/2019-02-18-operando/operacao.jpg
+---
+
+Vamos fazer a operação, pegar o bisturi e... opa, não é disto que estamos falando!
+
+Em programação temos algumas operações básicas que são aritméticas e lógicas:
+
+# Operações aritméticas
+
+Então, sabe a aulinha de matemática no primário? Então, temos os símbolos respectivos e as operações seguem a mesma ordem que víamos na escola :)
+
+1. Soma **+**
+2. Subtração **-**
+3. Multiplicação **\***
+4. Divisão **/**
+5. Resto da divisão **%**
+
+Vejamos os exemplos no javascript:
+
+```javascript
+    var x = 2
+    var y = 2
+    var soma = x + y
+    var subtracao = x - y
+    var multiplicacao   = x * y
+    var divisao   = x / y
+    var resto = x % y
+```
+
+Pegue este código e pratique!
+
+## Dica
+
+Você pode usar o seu Browser (navegador) para fazer estes testes do javascript! Na janela de seu navegador (seja [Firefox](https://www.mozilla.org/pt-BR/firefox/new/), [Chrome](https://www.google.com/chrome/) [Edge](https://www.microsoft.com/pt-br/windows/microsoft-edge) ou [Opera](https://www.opera.com/)) tecle **F12** e aparecerá uma área do desenvolvedor (vamos usar bastante em futuros tópicos!). Elas são bem semelhantes. Vá na seção *console* e digite um `alert('Olá!')`. Deverá aparecer uma caixa de alerta com um botão ok e a mensagem definida no alert. Feito isto, faça as atribuições acima! Para exibir o valor delas, chame um `console.log(nome)`. No lugar de `nome`, coloque o nome da variável, como `console.log(soma)`. Veja abaixo usando o Firefox:
+
+![Testando no Browser](/assets/article_images/2019-02-18-operando/devarea.jpg)
+
+Em breve teremos os operadores lógicos!
