@@ -201,3 +201,18 @@ pre {
         }
     }
 }
+
+.spoiler {
+    background-color:#000000;
+    color:#000000;
+}
+.spoiler:after{
+  content:"shhh spoiler!";
+  color:gray;  
+}
+.spoiler:hover{
+  background-color:transparent;
+}
+.spoiler:hover:after{
+  content:""; 
+}

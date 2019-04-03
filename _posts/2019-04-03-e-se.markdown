@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "E se?"
+date:   2019-04-03 15:30:00 -0300
+categories: introdução
+tags: none
+image: /assets/article_images/2019-04-03-e-se/cover.jpg
+---
+
+Vimos sobre comparações que retornam verdadeiro ou falso no episódio passado... (há muito tempo atrás, desculpa, pessoal!). Agora vamos ver o que podemos fazer com estas operações lógicas: **estruturas condicionais**!
+
+São blocos de código, em que a execução só vai entrar, como o próprio nome sugere, se a condição estabelecida for verdadeira.
+
+vamos fazer um teste, no console do nosso browser ou no [REPL](http://repl.it/languages/javascript): 
+
+```javascript
+    let a = 2;
+    let b = 3;
+    if (a>b) {
+        console.log("olá, pessoal!");
+    }
+```
+
+O código acima escreverá algo no console?
+{:.spoiler}Não! 2 não é maior que três!
+
+Podemos também usar um ao contrário. Se a for maior que b, faço uma coisa, *ao contrário*, ou **else**, faço outra:
+
+```javascript
+    let a = 2;
+    let b = 3;
+    if (a>b) {
+        console.log("Olá, mundo!");
+    }else{
+        console.log("Hello, universe!");
+    }
+```
