@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "E se?"
-date:   2019-04-03 15:30:00 -0300
+date:   2019-04-03 14:10:00 -0300
 categories: introdução
 tags: none
 image: /assets/article_images/2019-04-03-e-se/cover.jpg
@@ -16,7 +16,7 @@ vamos fazer um teste, no console do nosso browser ou no [REPL](http://repl.it/la
 ```javascript
     let a = 2;
     let b = 3;
-    if (a>b) {
+    if (a > b) {
         console.log("olá, pessoal!");
     }
 ```
@@ -29,9 +29,51 @@ Podemos também usar um ao contrário. Se a for maior que b, faço uma coisa, *a
 ```javascript
     let a = 2;
     let b = 3;
-    if (a>b) {
+    if (a > b) {
         console.log("Olá, mundo!");
     }else{
         console.log("Hello, universe!");
     }
 ```
+
+Também podemos fazer um aninhamento, fazer um **senão** com um **else if**:
+
+```javascript
+    let a = 20;
+    let b = 20;
+    if (a > b) {
+        console.log("a tá maior!");
+    }else if (a == b) {
+        console.log("tá tudo igual!");
+    }else{
+        console.log("b tá maior!");
+    }
+```
+
+Além do if, também temos o **escolha-caso**. Definimos uma variável a ser avaliada com a expressão `switch`. E colocamos as condições com a expressão `case VALOR:`. A expressão `break` indica que queremos sair da estrutura e não passar por nenhuma outra comparação. E é possível, atribuir comandos para casos de exceção, com a expressão `default`. Veja um exemplo:
+
+```javascript
+let sigla = 'BR'
+switch (sigla) {
+  case "BR":
+    console.log("Brasil");
+    break;
+  case "AR":
+    console.log("Argentina");
+    break;
+  case "CL":
+    console.log("Chile");
+    break;
+  case "CO":
+    console.log("Colômbia");
+    break;
+  case "GY":
+  case "GF":
+    console.log("Guiana");
+    break;
+  default:
+    console.log("Desculpe, estamos sem o significado da sigla " + sigla + ".");
+}
+```
+
+No próximo post, vamos falar de repetições!
