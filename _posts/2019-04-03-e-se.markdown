@@ -21,8 +21,12 @@ vamos fazer um teste, no console do nosso browser ou no [REPL](http://repl.it/la
     }
 ```
 
-O código acima escreverá algo no console?
-{:.spoiler}Não! 2 não é maior que três!
+<details>
+  <summary>O código acima escreverá algo no console?</summary>
+  
+  Não! 2 não é maior que três!
+</details>
+
 
 Podemos também usar um ao contrário. Se a for maior que b, faço uma coisa, *ao contrário*, ou **else**, faço outra:
 
